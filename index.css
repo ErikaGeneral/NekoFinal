@@ -11,7 +11,6 @@ body{
     animation-duration: 1s;
     animation-delay: 1s;
     font-style: italic;
-    text-decoration: blink;
-
-
+    text-decoration-color: black;
+   
 }
