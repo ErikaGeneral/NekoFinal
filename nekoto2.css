@@ -1,5 +1,5 @@
 body {
-  background-color:#1c6f92ce
+  background:#1c6f92ce
 }
 .signupFrm {
     display: flex;
@@ -11,8 +11,9 @@ body {
 
 .form {
   background-color: #d16364;
-    width: 400px;
-    border-radius: 8px;
+    width: 500px;
+    height: 450px;
+    border-radius: 10px;
     padding: 20px 40px;
     box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
   }
