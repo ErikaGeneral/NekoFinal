@@ -1,18 +1,16 @@
-body {
-  background:#1c6f92ce
-}
+
 .signupFrm {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-   color: #edf5f8
+   color: #0a1113
 }
 
 .form {
-  background-color: #d16364;
+  background-color: #4fb6b6;
     width: 500px;
-    height: 450px;
+    height: 600px;
     border-radius: 10px;
     padding: 20px 40px;
     box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
@@ -36,7 +34,7 @@ body {
     left: 0px;
     height: 100%;
     width: 100%;
-    border: 1px solid #dae0de;
+    border: 1px solid #070707;
     border-radius: 7px;
     font-size: 16px;
     padding: 0 20px;
@@ -58,11 +56,12 @@ body {
     top: 15px;
     left: 15px;
     padding: 0 4px;
-    color: #4d4d4e9d;
+    color: #0e0e5f9d;
     font-size: 16px;
     font-style: italic;
     transition: 0.5s;
     z-index: 0;
+ 
   }
 
   .submitBtn {
@@ -70,7 +69,7 @@ body {
     margin-left: auto;
     padding: 15px 30px;
     border: none;
-    background-color: rgba(128, 0, 128, 0.541);
+    background-color: rgba(128, 0, 128, 0.993);
     color: white;
     border-radius: 6px;
     cursor: pointer;
@@ -83,24 +82,49 @@ body {
     transform: translateY(-2px);
   }
 
+
+
   .input:focus + .label {
     top: -7px;
     left: 3px;
     z-index: 10;
     font-size: 14px;
     font-weight: 600;
-    color: purple;
-  }
-  .input:focus {
-    border: 2px solid purple;
+    
   }
 
-  .input:not(:placeholder-shown)+ .label {
-    top: -7px;
-    left: 3px;
-    z-index: 10;
-    font-size: 14px;
-    font-weight: 600;
-  }
 
- 
+  body{
+    background-color:#244e61ce
+}
+.main-header {
+    background-color: #d16364;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: medium;
+}
+.slider {
+    animation-duration: 1s;
+    animation-delay: 1s;
+    font-style: italic;
+    text-decoration-color: white;
+}
+
+.main {
+    text-align: right;
+    font-family:"Times New Roman";
+    background: #d1636563;
+    height: fit-content;
+    width: auto;
+    
+}
+.marq {
+    padding: top 0px;
+    padding: bottom 0px;
+}
+.geek1 {
+    font-size:36px;
+    font-weight:bold;
+    color:#fdcbe3;
+    text-align:center;
+}

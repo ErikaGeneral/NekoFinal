@@ -4,16 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Materialize Icon-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <link rel="stylesheet" href="https://www.freecodecamp.org/news/how-to-build-sign-up-form-with-html-and-css">
    <link rel="stylesheet" href="nekoto2.css">
     <title>Sign up</title>
 </head>
 <body>
+ <!--Header-->
+ <div class="main-header">
+  <nav class="transparent">
+      <div class="container">
+          <div class="nav-wrapper">
+            <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large"> 
+          
+           
+              <i class='fas fa-cat' style='font-size:48px;color:rgba(5, 24, 77, 0.959)'></i> 
+              <svg style="position: absolute; width: 0; height: 0;" width="5" height="5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              </svg>
+           
+              <a href="index.html" class="brand-logo">NekoFinder</a>
+             
+                 <ul class="right hide-on-med-and-down">
+                     <li><a href="nekoto2.html">Sign up</a></li>
+                     <li><a href="login.html">Log in</a></li>
+                 </ul>
+         </div>
+     </div>
+ </nav>
+</div>  
 
+<!--Sidenav-->
+              <ul id="slide-out" class="sidenav table-of contents">
+                <li><a href="#introduction">Home
+                    <i class="material-icons">home</i>
+                </a></li>
+                <li>
+                <li class="no-padding">
+                  <ul class="collapsible collapsible-accordion">
+                    <li><a href="#structure">Sign up
+                        <i class="material-icons">add_box</i>
+                    </a></li>
+              
+                    <li><a href="#initialization">Initialization
+                        <i class="material-icons">add_circle</i>
+                    </a></li>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+             
+             
 
     <div class="signupFrm">
         <form action="" class="form">
-          <h1 class="title">Sign up</h1>
+          <h1 class="title">SIGN UP</h1>
+          Please fill in this form to create an account.
     
           <div class="inputContainer">
             <input type="text" class="input" placeholder="a">
@@ -34,12 +85,25 @@
             <input type="text" class="input" placeholder="a">
             <label for="" class="label">Confirm Password</label>
           </div>
-    
+    By creating an account you agree to our Terms & Privacy.
           <input type="submit" class="submitBtn" value="Submit">
         </form>
       </div>
 
         </div>
     </div>
+<!--Jquery CDN-->
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+ <!-- Compiled and minified JavaScript -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>   
+ 
+<script>
+    $(document).ready(function(){
+ // Sidenav init
+ $('.sidenav').sidenav() ;
+        edge: 'right'
+  });
+</script>
+
 </body>
 </html>
