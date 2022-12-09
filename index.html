@@ -10,13 +10,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="index.css">
     <title>Nekoto</title>
    
 </head>
 <body>
 
-</div>
+
  <!--Header-->
 
   <div class="main-header">
@@ -34,28 +35,32 @@
               
                    <ul class="right hide-on-med-and-down">
                        <li><a href="nekoto2.html">Sign up</a></li>
-                       <li><a href="login.html">Log in</a></li>
-                  
+                       <li><a href="login.html">Log in</a></li>        
            </div>
        </div>
    </nav>
  </div>  
 
 <!--Sidenav-->
+
                 <ul id="slide-out" class="sidenav table-of contents">
-                  <li><a href="#introduction">Home
+                  <li><a href="index.html">Home
                       <i class="material-icons">home</i>
                   </a></li>
                   <li>
                   <li class="no-padding">
                     <ul class="collapsible collapsible-accordion">
-                      <li><a href="#structure">Sign up
+                      <li><a href="nekoto2.html">Sign up
                           <i class="material-icons">add_box</i>
                       </a></li>
                 
-                      <li><a href="#initialization">Initialization
-                          <i class="material-icons">add_circle</i>
+                      <li><a href="login.html">Log In
+                          <i class="material-icons">lock_open</i>
                       </a></li>
+
+                      <li><a href="#facts">Facts
+                        <i class="material-icons">favorite</i>
+                    </a></li>
                         </div>
                       </li>
                     </ul>
@@ -65,7 +70,7 @@
                 <div class = "main">
                   <marquee class="marq" background color = "Green" direction = "right" loop=""  scrollamount="20">
 
-                      <div class="geek1">Find your Purfect Breed</div>     
+                      <div class="geek1">Find your Furfect Cats</div>     
                   </marquee>
                   </div>
                   
@@ -88,8 +93,7 @@
         class="responsive-img"> <!--image -->
         <div class="caption left-align">
           <h3>Nine lives is not enough</h3>
-          <h5 class="light grey-text text-lighten-3">“Time spent with cats is never wasted.”
-            -Sigmund Freud.
+          <h5 class="light grey-text text-lighten-3">“The smallest feline is a masterpiece.” – Leonardo da Vinci
           </h5>
         </div>
       </li>
@@ -97,90 +101,218 @@
         <img src="images/catslider3.jpg"alt="architecture"
         class="responsive-img"> <!--image -->
         <div class="caption right-align">
-          <h3>Right Aligned Caption</h3>
-          <h5 class="light grey-text text-lighten-3">I’m secretly judging you.</h5>
+          <h3>Memories</h3>
+          <h5 class="light grey-text text-lighten-3">“The memories and paw print of a beloved cat remains in our heart and soul forever.”</h5>
         </div>
       </li>
       <li>  
         <img src="images/bengal cat.jpg" alt="architecture"
         class="responsive-img"> <!-- image -->
         <div class="caption center-align">
-          <h3>This is our big Tagline!</h3>
-          <h5 class="light grey-text text-lighten-3">Keep calm and purr on.</h5>
+          <h3>Keep calm and purr on.</h3>
+          <h5 class="light grey-text text-lighten-3">“Cats leave paw prints in your heart, forever and always.”</h5>
         </div>
       </li>
     </ul>
   </div>
 
   
+  <!--collection & Filter-->
   <div class="container">   
     <div class="row">
       <div class="col s12 m7 offset-m1 right-align">
-  <a href="login.html" class="btn btn-large green purple text">By Collection</a>
-  <a href="" class="btn btn-large blue purple text">By Filters</a>
+<a href="#collection" class="btn btn-large green purple text">By Collection</a>
+  <a href="https://www.petfinder.com/cat-breeds/?playfulness[]=low&playfulness[]=moderate&playfulness[]=high&activityLevel[]=low&activityLevel[]=moderate&viewAllFilters=on&page=1#Filters_Container" class="btn btn-large blue purple text">By Filters</a>
 </div>
 </div>
 </div>
+
+
 
 
 <!--Pictures-->
+<section>
    <div class="lagayan">
+    <div id="collection" class="scrollspy">
     <p1>Find The Right Breed For You</p1>
    </div>
-
-
-
+   <br>
    <div class="image-grid">
-   
-    <img src="images/siamese.jpg" alt="architecture">
-    <img src="images/Burmilla-Cat-compressed-768x384-compressed-540x360.jpg" alt="architecture">
-    <img src="images/ragdoll.jpg" alt="architecture">
-    <img src="images/british cat.jpg" alt="architecture">
   
+    <img src="images/breeds.jpg" alt="architecture">
+    <img src="images/breeds2.jpg" alt="architecture">
+    <img src="images/breeds 3.jpg" alt="architecture">
    
+    <img src="images/Burmilla-Cat-compressed-768x384-compressed-540x360.jpg" alt="architecture">
+    <img src="images/cat with me.png" alt="architecture">
+    <img src="images/bengal cat.jpg" alt="architecture">
+  </div>
+   
+<br>
  
+  <div class="container2">
+    <form action="https://www.google.com/search?q=facts+about+cats&rlz=1C1KNTJ_enPH1019PH1019&oq=facts&aqs=chrome.0.69i59j69i57j46i199i433i465i512j0i433i512l3j46i131i175i199i433i512j69i60.4743j0j7&sourceid=chrome&ie=UTF-8#wptab=si:AC1wQDCxfsJboqwBCeM7aTnTe8zCgz2PPCej96U7PJy73iIUfby38eCJoCColbZ0S7E4tW81eCh1r61X3_wQD_hakByU2DUlzO6NT4vL53iQv_ZsjlQ5THScVYL2ow8HuvDBd_0dv9pc" method="get" class="search-bar">
+      <div class="input-field">
+      <input type="text"  placeholder="search">
+    </div>
+      <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+    </form>
   </div>
+  </div>
+</section>
+
+<br><br>
+ 
+
+<div style="height: 900px;"></div>
+
+
+<section>
+  <div class="lagayan">
+    <div id="facts" class="scrollspy">
+    <p2> Neko Facts</p2>
+   </div>
+
+   
+        <!-- Facts -->
+
+
+    <div class="slider2">
+      <div class="slider-wrap">
+        <div class="slide">
+          <img src="images/cat 2.jpg" class="slide-image" alt="HTML">
+        </div>
+        <div class="slide">
+          <img src="images/cat 6.jpg" class="slide-image" alt="HTML">
+        </div>
+        <div class="slide">
+          <img src="images/cat3.jpg" class="slide-image" alt="HTML">
+        </div>
+        <div class="slide">
+          <img src="images/cat7.jpg" class="slide-image">
+        </div>
+        <div class="slide">
+          <img src="images/smallcat.jpg" class="slide-image">
+        </div>
+        <div class="slide">
+          <img src="images/british cat.jpg" class="slide-image">
+        </div>
+        <div class="slide">
+          <img src="images/siamese.jpg" class="slide-image">
+        </div>
+
+        <div class="slide">
+          <img src="images/Burmilla-Cat-compressed-768x384-compressed-540x360.jpg" class="slide-image">
+        </div>
+
+      </div>
+    </div>
+
+    <div class="parallax">
+      </div>
+      </div>
+  </div>
+  <div class="section green lighten-4">
+      <div class="row container">
+          <div class="row">
+          <div class="col s10 m3 l10">
+              <div id="structure" class="scrollspy">
+                <br><br><br>
+                  <h2 class="header black-text">About Cats</h2>
+                  <p class="black-text text-darken-1">The cat is a domestic species of small carnivorous mammal. It is the only domesticated species in the family Felidae and is commonly referred to as the domestic cat or house cat to distinguish it from the wild members of the family. 
+                 
+                    <p class="black-text text-darken-1"> Daily sleep: 12– 16 hours 
+                      <p class="black-text text-darken-1">  Mass: 4 – 5 kg (Domesticated)                   
+                    <p class="black-text text-darken-1"> Speed: 48 km/h (Maximum)                    
+                    <p class="black-text text-darken-1">  Height: 23 – 25 cm
+                      <p class="black-text text-darken-1"> Lifespan: 12 – 18 years (Domesticated)
+                        <p class="black-text text-darken-1">  Scientific name: Felis catus
+                  </p> 
+                      </p>
+  
+              </div>
+          </div>
+      </div>
+  </div>
+  </div>
+  
+
+
+
 </div>
-  </div>
+</section>
+<br><br>
 
+ <!-- Button to open the modal -->
+ <button onclick="document.getElementById('id01').style.display='block'">Sign Up</button>
 
+ <!-- The Modal (contains the Sign Up form) -->
+ <div id="id01" class="modal">
+   <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal"></span>
+   <form class="modal-content" action="/action_page.php">
+     <div class="container">
+       <h1>Sign Up</h1>
+       <p>Please fill in this form to create an account.</p>
+       <hr>
+       <label for="email"><b>Email</b></label>
+       <input type="text" placeholder="Enter Email" name="email" required>
+ 
+       <label for="psw"><b>Password</b></label>
+       <input type="password" placeholder="Enter Password" name="psw" required>
+ 
+       <label for="psw-repeat"><b>Repeat Password</b></label>
+       <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+ 
+       <label>
+         <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+       </label>
+ 
+       <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+ 
+       <div class="clearfix">
+         <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+         <button type="submit" class="signup">Sign Up</button>
+       </div>
+     </div>
+   </form>
+ </div>
 
+   <br>
+   <div class=container>
 
+   <a href="#" class="fa fa-facebook"></a>
+  <a href="#" class="fa fa-twitter"></a> 
+  <a href="#" class="fa fa-instagram"></a>
+  <a href="#" class="fa fa-youtube"></a> 
 
+</div>
 
-
-
-
-
-<div style="height: 500px;"></div>
-<!--Footer-->
+       <!--Footer-->
+<section>
   <footer class="page-footer">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">Footer Content</h5>
-          <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-        </div>
-        <div class="col l4 offset-l2 s12">
-          <h5 class="white-text">Links</h5>
-          <ul>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-          </ul>
-        </div>
+          <h5 class="white-text">All rights reserved</h5>
+          <p class="grey-text text-lighten-4">
+            This means that no one may use your work unless they obtain your permission.
+        
       </div>
     </div>
+
+    
     <div class="footer-copyright">
       <div class="container">
-      © 2014 Copyright Text
+      © 2022 Copyright 
       <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
       </div>
     </div>
-  </footer>
 
- 
+
+    </div>
+  </footer>
+</section>  
+      
 <!--Jquery CDN-->
 <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
  <!-- Compiled and minified JavaScript -->
@@ -189,11 +321,15 @@
 <script>
     $(document).ready(function(){
     $('.slider').slider();
-    height: 400
+    height: 500
     duration: 500
  // Sidenav init
  $('.sidenav').sidenav() ;
         edge: 'right'
+$('.scrollspy').scrollSpy();
+// Parallax init
+$('.parallax').parallax();
+
   });
 </script>
 </body>
